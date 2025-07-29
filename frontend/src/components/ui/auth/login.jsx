@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '../shared/Navbar'
-import { Label } from '../ui/label'
-import { Input } from '../ui/input'
-import { RadioGroup } from '../ui/radio-group'
-import { Button } from '../ui/button'
+import { Label } from '../label'
+import { Input } from '../input.jsx'
+import { RadioGroup } from '../radio-group'
+import { Button } from '../button'
 import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import { USER_API_END_POINT } from '@/utils/constant'
@@ -52,7 +52,7 @@ const Login = () => {
         if(user){
             navigate("/");
         }
-    },[])
+    },[navigate, user])
     return (
         <div>
             <Navbar />
