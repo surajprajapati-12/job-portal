@@ -36,10 +36,10 @@ const Footer = () => {
         <div>
           <h2 className="text-lg font-semibold mb-2">Follow Us</h2>
           <div className="flex space-x-4 mt-2">
-            <a href="https://linkedin.com" className="text-gray-400 hover:text-white">
+            <a href="https://www.linkedin.com/in/suraj-prajapati1702" className="text-gray-400 hover:text-white">
               <FaLinkedin size={20} />
             </a>
-            <a href="https://github.com" className="text-gray-400 hover:text-white">
+            <a href="https://github.com/surajprajapati-12" className="text-gray-400 hover:text-white">
               <FaGithub size={20} />
             </a>
             <a href="https://twitter.com" className="text-gray-400 hover:text-white">
